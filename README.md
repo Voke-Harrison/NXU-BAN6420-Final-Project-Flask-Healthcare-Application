@@ -1,7 +1,6 @@
 # NXU-BAN6420-Final-Project-Flask-Healthcare-Application
-In the attached Zip file named BAN 6420 Final Project contains;
-* app.py - a Python source file with flask -accessible on http://127.0.0.1:5000
-* exportdb.py - a Python source file with flask and a class named 'user' for downloading data from Mongodb - accessible on http://127.0.0.1:5000/export
+This repository contains;
+* app.py - a Python source file with flask -accessible on http://127.0.0.1:5000. It also contains a class named 'user' for downloading data from Mongodb - accessible on http://127.0.0.1:5000/export
 * Template folder containing
   * index.html - a html document for the App python source file
   * export.html - a html document for the exportdb python source file
@@ -16,6 +15,15 @@ In the attached Zip file named BAN 6420 Final Project contains;
   * GenderbyHealthcare.jpg - Visualization image.
   * Other system folders and files.
 
+Vercel Publishing - https://nxu-ban-6420-final-project-flask-healthcare-application.vercel.app/
+With the following files;
+* application.py
+* index.py
+* manage.py
+* requirements.txt
+* settings.py
+* vercel.json
+* wsgi.py
 # Steps to Host the Flask application on Vercel
 1. Create an account with Vercel.
 2. Use npm to install Vercel globally on your computer.
