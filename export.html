@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Export Data From MongoDB</title>
+</head>
+<body>
+    <form method="post">
+    <button type="submit">Export MongoDB to CSV</button>
+    </form>
+        <hr>
+        {% for user in users %}
+            <div class="user">
+                <p>({{ user['_id'] }})<b>{{ user['name'] }}</b>({{ user['age'] }}) <i>({{ user['gender']}})</i> <i>({{ user['income']}})</i>
+                 <i>({{ user['utilities']}})</i> <i>({{ user['entertainment']}})</i>
+                    <i>({{ user['school_fees']}})</i> <i>({{ user['shopping']}})</i>
+                 <i>({{ user['healthcare']}})</i></p>
+            </div>
+        {% endfor %}
+</body>
+</html>
