@@ -17,7 +17,7 @@ This repository contains;
   * Other system folders and files.
 
 ## Vercel Publishing - https://nxu-ban-6420-final-project-flask-healthcare-application.vercel.app/
-With the following files;
+With the following additional files;
 * application.py
 * index.py
 * manage.py
